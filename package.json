@@ -1,0 +1,23 @@
+{
+  "name": "dsh-ai-news",
+  "version": "1.0.0",
+  "description": "AI news & hot topics panel for DSH: LLM / Agent / AI creation trends / AI hot topics / AI short-drama (manju), powered by DeepSeek web search with on-demand AI summaries",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": ["dsh", "plugin", "ai", "news", "search", "hot-topics", "llm", "agent"],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  }
+}

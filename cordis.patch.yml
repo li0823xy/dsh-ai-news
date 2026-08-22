@@ -1,0 +1,7 @@
+# dsh-ai-news plugin patch: inserts the dual-face plugin into the web profile.
+# The node half (exports ".") runs in the host process (AI search, /api routes,
+# caching), and the browser half (exports "./client") renders the sidebar
+# entry and the news panel in the web GUI.
+- insert:
+    - id: ai-news
+      name: 'dsh-ai-news'
