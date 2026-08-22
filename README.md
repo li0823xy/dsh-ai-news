@@ -28,8 +28,19 @@
 ### 安装到 web profile
 
 ```bash
-# 进入插件目录后，用 DSH 官方插件命令登记并链接
-dsh plugin --profile web add link:E:\lxy-news
+# 从 npm 直接安装（推荐）
+dsh plugin --profile web add dsh-ai-news
+
+# 或从源码仓库安装
+git clone https://github.com/li0823xy/dsh-ai-news.git
+cd dsh-ai-news
+dsh plugin --profile web add link:$(pwd)
+```
+
+Windows PowerShell 里 `link:` 用当前目录：
+
+```powershell
+dsh plugin --profile web add link:%CD%
 ```
 
 或者手动方式：把整个目录复制进 profile 的 `node_modules`，并在 profile 的 `cordis.patch.yml` 增加：
