@@ -6,6 +6,12 @@
 
 ---
 
+<img width="1915" height="883" alt="3a579c1d0173f0881656c2fed37b11c0" src="https://github.com/user-attachments/assets/37125539-3e77-495c-b5ee-39db19cf21ac" />
+<img width="1919" height="898" alt="4103682e5c6006210b4f2f6d4445b9af" src="https://github.com/user-attachments/assets/0806c6e5-f8ab-4bb0-8e9c-4fcd807fa32a" />
+<img width="1919" height="911" alt="947e0607f823f71e03dfa71a52287755" src="https://github.com/user-attachments/assets/f0995bae-5904-4619-9c64-04059fcf65c5" />
+
+
+
 ## ✨ 功能特性
 
 - **5 个板块**：大语言模型、Agent、AI 内容创作趋势、AI 圈热点、漫剧（红果/抖音/快手上的 AI 短剧）
