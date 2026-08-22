@@ -9,7 +9,16 @@
     "./client": "./lib/client.js",
     "./package.json": "./package.json"
   },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
   "keywords": ["dsh", "plugin", "ai", "news", "search", "hot-topics", "llm", "agent"],
+  "author": "lxy <705207627@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/li0823xy/dsh-ai-news.git"
+  },
   "license": "MIT",
   "dsh": {
     "bundle": {
